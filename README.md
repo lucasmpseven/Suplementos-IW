@@ -1,2 +1,2 @@
-# http://lucasmpseven.github.io/Material-IW
+# http://lucasmpseven.github.io/MaterialIW
 Material IW
