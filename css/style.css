@@ -17,3 +17,26 @@ header {
     text-align: center;
     font-size: 1.4em;
 }
+
+nav{
+    color: greenyellow;
+    text-align: center;
+    font-size: 1.4em;
+}
+
+.banner{
+    width: 100%;
+}
+
+.container{
+    background-color: maroon;
+    width: 80%;
+    margin: auto;
+}
+
+footer{
+    background-color: forestgreen;
+    color: red;
+    font-size: 1.4em;
+    text-align: center;
+}
