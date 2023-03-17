@@ -11,3 +11,9 @@ header {
     width: 100%;
     background-color: fuchsia;
 }
+
+.logo{
+    color: greenyellow;
+    text-align: center;
+    font-size: 1.4em;
+}
