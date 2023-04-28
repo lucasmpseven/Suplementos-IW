@@ -44,7 +44,9 @@ footer{
 
 p{
     line-height: 1.5;
-}
+    text-align: justify;
+    text-indent: 15px;
+} 
 
 ul{
     line-height: 1.5;
@@ -52,4 +54,5 @@ ul{
 
 h2{
     font-size: 1.8em;
+    text-align: center;
 }
