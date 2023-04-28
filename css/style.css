@@ -1,10 +1,16 @@
 body{
     background-color: black;
 }
+
 h1{
     color: yellow;
     text-align: center;
 }
+
+p{
+    line-height: 2%;
+}
+
 
 header {
     color: #fff;
