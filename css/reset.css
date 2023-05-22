@@ -46,3 +46,22 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+a:link {
+	text-decoration: none;
+	color: inherit;
+	}
+	  
+	a:visited {
+	text-decoration: none;
+	color: white;
+	}
+	  
+	a:hover {
+	text-decoration: none;
+	color: yellow;
+	}
+	  
+	a:active {
+	text-decoration: none;
+	color: inherit;
+	}
