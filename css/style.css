@@ -135,4 +135,6 @@ td, th {
     padding: 8px;
     border: 1.5px solid black;
 }
-
+.listameio {
+    list-style-image: url(../img/suplementolista.png);
+}
