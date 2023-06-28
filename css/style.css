@@ -66,8 +66,9 @@ li{
 }
 
 h2{
-    font-size: 1.8em;
     text-align: center;
+    font-size: 1.4em;
+    color: black;
 }
 
 h3{
@@ -92,6 +93,30 @@ h3{
 
 .col-6{
     width: 50%;
+}
+
+#curi{
+    margin-bottom: 3%
+}
+
+#introducao{
+    margin-bottom: 2.5%;
+}
+
+#blackskull{
+    margin-bottom: 2.5%;
+}
+
+#creatina{
+    margin-bottom: 2.5%;
+}
+
+#whey{
+    margin-bottom: 2.5%;
+}
+
+#hipercalorico{
+    margin-bottom: 6.5%;
 }
 
 /* Responsive layout - makes a one column layout instead of a two-column layout */
@@ -135,6 +160,11 @@ td, th {
     padding: 8px;
     border: 1.5px solid black;
 }
+
 .listameio {
     list-style-image: url(../img/suplementolista.png);
+}
+
+.suplementoimg{
+    padding-left: 2%;
 }
