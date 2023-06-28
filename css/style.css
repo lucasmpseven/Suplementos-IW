@@ -168,3 +168,17 @@ td, th {
 .suplementoimg{
     padding-left: 2%;
 }
+
+.menulink:hover{
+    transition: 0.8s;
+    color: darkred;
+    font-size: 1.3em;
+}
+
+#tabela{
+    margin-bottom: 3%;
+}
+
+figure{
+    margin-bottom: 3%;
+}
