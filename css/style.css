@@ -134,6 +134,7 @@ h3{
     width: 80%;
     border-style: solid;
     border-color: black;
+    border-width: 5px;
     box-shadow: 15px 15px 15px 2px, black
 }
 
@@ -142,7 +143,8 @@ h3{
     width: 80%;
     border-style: solid;
     border-color: black;
-    box-shadow: 15px 15px 15px 2px, black
+    border width: 5px;
+    box-shadow::15px 15px 15px 2px, black
 }
 a{
     font-size: 0.6em;
@@ -166,13 +168,13 @@ td, th {
 }
 
 .suplementoimg{
-    padding-left: 2%;
+    padding-left: 3.5%;
 }
 
 .menulink:hover{
     transition: 0.8s;
     color: darkred;
-    font-size: 1.3em;
+    font-size: 1.0em;
 }
 
 #tabela{
@@ -181,4 +183,8 @@ td, th {
 
 figure{
     margin-bottom: 3%;
+}
+.logoimg{
+
+    width: 20%;
 }
