@@ -1,0 +1,57 @@
+h1{
+    font-size: 1.5;
+    color: darkred;
+    text-align: center;
+}
+p{
+    font-size: 1.2;
+    color: black;
+    text-align: center;
+}
+.container{
+    position: relative;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+
+.centro{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    color: orange;
+}
+
+.topoesquerda{
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    font-size: 20px;
+    color: orange;
+}
+.topodireita{
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    font-size: 20px;
+    color: orange;
+}
+
+.embaixoesq{
+    position: absolute;
+    bottom: 12px;
+    left: 16px;
+    font-size: 20px;
+    color: orange;
+}
+
+.embaixodir{
+    position: absolute;
+    bottom: 12px;
+    right: 16px;
+    font-size: 20px;
+    color: orange;
+}

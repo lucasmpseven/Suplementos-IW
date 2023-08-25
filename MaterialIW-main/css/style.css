@@ -1,0 +1,190 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color:white;
+    font-family: 'Josefin Sans',cursive;
+}
+
+h1{
+    font-size: 1.5em;
+    text-align: center;
+    color: darkred
+}
+
+header {
+    color: rgb(255, 255, 255);
+    width: 100%;
+    background-color: white
+}
+
+.logo{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 1.4em;
+}
+
+nav{
+    color: yellow;
+    text-align: center;
+    font-size: 1.4em;
+}
+
+.banner{
+    width: 100%;
+}
+
+.container{
+    background-color:rgb(255, 255, 255);
+    width: 80%;
+    margin: auto;
+}
+
+footer{
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    font-size: 1.4em;
+    text-align: center;
+}
+
+p{
+    color: rgb(0, 0, 0);
+    padding-top: 1%;
+    padding-bottom: 0.5%;
+    line-height: 1.5;
+    text-align: justify;
+    text-indent: 15px;
+    font-size: 20px;
+} 
+
+ul{
+    line-height: 1.5;
+}
+
+li{
+    font-size: 1.2em;
+}
+
+h2{
+    text-align: center;
+    font-size: 1.4em;
+    color: black;
+}
+
+h3{
+    font-size: 1.0em;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.banner{
+    width: 100%;
+}
+
+.suplementoimg{
+    float: right;
+  }
+
+.linha{
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+}
+
+.col-6{
+    width: 50%;
+}
+
+#curi{
+    margin-bottom: 3%
+}
+
+#introducao{
+    margin-bottom: 2.5%;
+}
+
+#blackskull{
+    margin-bottom: 2.5%;
+}
+
+#creatina{
+    margin-bottom: 2.5%;
+}
+
+#whey{
+    margin-bottom: 2.5%;
+}
+
+#hipercalorico{
+    margin-bottom: 6.5%;
+}
+
+/* Responsive layout - makes a one column layout instead of a two-column layout */
+@media (max-width: 600px) {
+    .linha{
+        flex-direction: column;
+    }
+    .col-6{
+        width: 100%;
+    }
+  }
+
+.imagecard{
+    background-image: linear-gradient(red,grey);
+    width: 80%;
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    box-shadow: 15px 15px 15px 2px, black
+}
+
+.card{
+    background-image: linear-gradient(red,grey);
+    width: 80%;
+    border-style: solid;
+    border-color: black;
+    border width: 5px;
+    box-shadow::15px 15px 15px 2px, black
+}
+a{
+    font-size: 0.6em;
+}
+
+table{
+    font-family: 'Josefin Sans',cursive;
+    width: 100%;
+    border-collapse: collapse
+}
+
+td, th {
+    font-size: 1.2em;
+    text-align: left;
+    padding: 8px;
+    border: 1.5px solid black;
+}
+
+.listameio {
+    list-style-image: url(../img/suplementolista.png);
+}
+
+.suplementoimg{
+    padding-left: 3.5%;
+}
+
+.menulink:hover{
+    transition: 0.8s;
+    color: darkred;
+    font-size: 1.0em;
+}
+
+#tabela{
+    margin-bottom: 3%;
+}
+
+figure{
+    margin-bottom: 3%;
+}
+.logoimg{
+
+    width: 20%;
+}
