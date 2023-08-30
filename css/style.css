@@ -12,10 +12,27 @@ h1{
     color: darkred
 }
 
-header {
+header, footer {
+    background-color: rgb(255, 255, 255);
     color: rgb(255, 255, 255);
     width: 100%;
-    background-color: white
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.4em
+}
+
+.menufixo{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;       
+}
+
+.menu-opcoes{
+    text-align: center;
 }
 
 .logo{
@@ -38,13 +55,6 @@ nav{
     background-color:rgb(255, 255, 255);
     width: 80%;
     margin: auto;
-}
-
-footer{
-    background-color: rgb(255, 255, 255);
-    color: rgb(255, 255, 255);
-    font-size: 1.4em;
-    text-align: center;
 }
 
 p{
@@ -119,6 +129,7 @@ h3{
     margin-bottom: 6.5%;
 }
 
+
 /* Responsive layout - makes a one column layout instead of a two-column layout */
 @media (max-width: 600px) {
     .linha{
@@ -129,6 +140,43 @@ h3{
     }
   }
 
+
+@media screen and (max-widht: 599px){
+    .container {
+        margin-top:65%
+    }
+    }
+
+ @media screen and (min-width: 600px){
+    .container {
+        margin-top: 40%;
+    }
+    } 
+
+@media screen and (min-width: 768px){
+    .container {
+        margin-top: 20%;
+    }
+    header{
+        background-color: white;
+        flex-direction: row;
+        position: relative;
+        height: 100px;
+    }    
+
+    .menu-opcoes{
+        position: absolute;
+        right: 5%;
+        top: 45%;
+    }
+
+    .menu-opcoes ul li{
+
+        display: inline;
+        margin-left: 10px;
+    }
+}    
+    
 .imagecard{
     background-image: linear-gradient(red,grey);
     width: 80%;
@@ -143,9 +191,9 @@ h3{
     width: 80%;
     border-style: solid;
     border-color: black;
-    border width: 5px;
     box-shadow::15px 15px 15px 2px, black
 }
+
 a{
     font-size: 0.6em;
 }
