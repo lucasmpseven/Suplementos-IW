@@ -12,7 +12,7 @@ h1{
     color: darkred
 }
 
-header, footer {
+header {
     background-color: rgb(255, 255, 255);
     color: rgb(255, 255, 255);
     width: 100%;
@@ -39,7 +39,15 @@ header, footer {
     color: rgb(255, 255, 255);
     text-align: center;
     font-size: 1.4em;
+    padding-top: 1%;
 }
+
+.logoimg{
+        position: absolute;
+        width: 6%;
+        top: 10px;
+        left: 40px;
+ }
 
 nav{
     color: yellow;
@@ -141,49 +149,43 @@ h3{
   }
 
 
-@media screen and (max-widht: 599px){
-    .container {
-        margin-top:65%
-    }
-    }
-
- @media screen and (min-width: 600px){
-    .container {
+@media screen and (max-widht: 600px){
+    .banner{
         margin-top: 40%;
+      }
+    
+      .logo{
+        padding-top: 1%;
+        padding-bottom: 1%;
+        text-align: center;
+      }
     }
-    } 
 
-@media screen and (min-width: 768px){
-    .container {
-        margin-top: 20%;
-    }
-}    
-
+@media screen and (min-width: 601px){
     header{
-        background-color: white;
         flex-direction: row;
-        position: relative;
-        height: 100px;
     }    
 
     .menu-opcoes{
         position: absolute;
         right: 5%;
-        top: 45%;
+        top: 30%;
+        width: 70%;
     }
 
     .menu-opcoes ul li{
-
         display: inline;
         margin-left: 15px;
     }
 
-    .logoimg{
-        position: absolute;
-        width: 6%;
-        top: 10px;
-        left: 40px;
+    .logo{
+        padding-top: 5%;
+        padding-bottom: 1%;
+        text-align: left;
+        width: 30%;
     }
+
+}    
 
 .imagecard{
     background-image: linear-gradient(red,grey);
