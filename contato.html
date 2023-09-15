@@ -10,33 +10,51 @@
         <link rel="shortcut icon" href="img/faviconhome.png" type="image/x-icon">
 </head>
 <body>
-        <header>
+
+        <header class="menufixo">
                 <div class="logo">
-                        <h1>Logo</h1>
-                        <h1>Contato</h1>
+                        <img class="logoimg" src="img/logoimg.avif" alt="">
                 </div>
-                <nav>
-                        <ul>
-                                <li><a href="index.html">Home</a></li>
-                                <li><a href="trilha.html">Trilha</a></li>
-                                <li><a href="index.html#introducao">Suplementos</a></li>
-                                <li><a href="index.html#blackskull">BlackSkull</a></li>
-                                <li><a href="index.html#creatina">Creatina</a></li>
-                                <li><a href="index.html#whey">Whey Protein</a></li>
+
+                <nav class="menu-opcoes">
+                        <ul class="menuul">
+                                <li><a class="menulink" href="index.html">Home</a></li>
+                                <li><a class="menulink" href="#introducao">Suplementação</a></li>
+                                <li><a class="menulink" href="#creatina">Creatina</a></li>
+                                <li><a class="menulink" href="#whey">Whey Protein</a></li>
+                                <li><a class="menulink" href="#hipercalorico">HiperCalórico</a></li>
+                                <li><a class="menulink" href="trilha.html">Trilha</a></li>
                         </ul>
                 </nav>
         </header>
+
         <figure>
-                <img class="banner" src="img/banneracademia.jpg" alt="banner descreve uma academia">
+                <img class="banner" src="img/ironbergcon.jpeg" alt="banner descreve uma academia">
         </figure>
-        <div class="container"> 
-         </div>
+
+        <div class="container">
+                <h1>Contato</h1>
+                <form action="#" method="POST">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required>
+        
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+        
+                    <label for="mensagem">Mensagem/Sugestão:</label>
+                    <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+        
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+
         <footer>
-                <p>Desenvolvido por Lucas Martins.</p>
-                <ul>
-                        <li><a href="https://www.isntagram.com/_martins_lucas_/"><img src="img/instagram img.png" alt=""></a></li>
-                </ul>
+                <h2>Desenvolvido por Lucas Martins.</h2>
+                <a href="https://github.com/lucasmpseven/MaterialIW"><img class="iconefot" width="120em" height="120em" src="img/github.png" alt="github icone"></a>
+                 <a href="https://www.instagram.com/_martins_lucas_/"><img class="iconefot" widht="120em" height="120em" src="img/instagram img.png" alt="instagram icone"></a>
         </footer>
+
         </body>
+        
         </html>
         
